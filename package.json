@@ -2,9 +2,10 @@
   "name": "twilio_explore",
   "version": "1.0.0",
   "description": "Digging in and understanding how Twilio works!",
-  "main": "send_sms.js",
+  "main": "server.js",
   "dependencies": {
     "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "twilio": "^3.49.1"
   },
   "devDependencies": {},
