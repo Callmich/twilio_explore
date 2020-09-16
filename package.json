@@ -1,0 +1,24 @@
+{
+  "name": "twilio_explore",
+  "version": "1.0.0",
+  "description": "Digging in and understanding how Twilio works!",
+  "main": "send_sms.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "twilio": "^3.49.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Callmich/twilio_explore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Callmich/twilio_explore/issues"
+  },
+  "homepage": "https://github.com/Callmich/twilio_explore#readme"
+}
