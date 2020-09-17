@@ -9,7 +9,7 @@ const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false}));
 
-app.post('/', (req, res) => {
+app.post('/api/sms', (req, res) => {
     const twiml = new MessagingResponse();
 
     let txtMessage = req.body.Body
