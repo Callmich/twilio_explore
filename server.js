@@ -16,9 +16,9 @@ app.post('/sms', (req, res) => {
     let lowerCaseTxt = txtMessage.toLowerCase()
 
     if (lowerCaseTxt == "code"){
-        twiml.message('Thank you so much! \n Please see my intro: https://www.youtube.com/watch?v=lRphR1oIVmA Type 1 for a list of the menu')
+        twiml.message('Thank you so much for joining me on this Choose Your Own Code Review Adventure!\n Please check out my intro: https://www.youtube.com/watch?v=lRphR1oIVmA \n Text 1 for the menu')
     }else if (lowerCaseTxt == '1'){
-        twiml.message("Menu: - Backstory 3 - Other stuff 4- Other Other stuff")
+        twiml.message("Menu: \n 1 - Menu (seems a bit recursive to choose this) \n 2 - What is StoryBoard? \n 3 - Design and Planning \n 4- Migrations, Seeding, and Server \n 5 - Routers \n 6 - Middle-Ware \n 7 - Shared Functions \n 8 - Documentation \n 9 - Testing \n 10 - The Next Steps \n 11 - About Me")
     }else {
         twiml.message("That is not the magic word")
     }
