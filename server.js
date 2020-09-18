@@ -4,6 +4,7 @@ const http = require('http');
 const express = require('express');
 const MessagingResponse = require('twilio').twiml.MessagingResponse;
 const bodyParser = require('body-parser');
+const { Message } = require('twilio/lib/twiml/MessagingResponse');
 
 const app = express();
 
@@ -16,9 +17,11 @@ app.post('/sms', (req, res) => {
     let lowerCaseTxt = txtMessage.toLowerCase()
 
     if (lowerCaseTxt == "code"){
-        twiml.message('Thank you so much! Please see my intro: https://www.youtube.com/watch?v=lRphR1oIVmA Type 1 for a list of the menu')
+        <Message>'Thank you so much! 
+            Please see my intro: https://www.youtube.com/watch?v=lRphR1oIVmA 
+            Type 1 for a list of the menu'</Message>
     }else if (lowerCaseTxt == '1'){
-        twiml.message("Menu: 2 - Backstory 3 - Other stuff 4- Other Other stuff")
+        twiml.message("Menu: - Backstory 3 - Other stuff 4- Other Other stuff")
     }else {
         twiml.message("That is not the magic word")
     }
