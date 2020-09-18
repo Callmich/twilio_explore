@@ -16,7 +16,7 @@ app.post('/sms', (req, res) => {
     let lowerCaseTxt = txtMessage.toLowerCase()
 
     if (lowerCaseTxt == "code"){
-        twiml.message('Thank you so much! Please see my intro: https://www.youtube.com/watch?v=lRphR1oIVmA Type 1 for a list of the menu')
+        twiml.message('Thank you so much! \n Please see my intro: https://www.youtube.com/watch?v=lRphR1oIVmA Type 1 for a list of the menu')
     }else if (lowerCaseTxt == '1'){
         twiml.message("Menu: - Backstory 3 - Other stuff 4- Other Other stuff")
     }else {
