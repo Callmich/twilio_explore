@@ -9,7 +9,7 @@ const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false}));
 
-app.post('/api/sms', (req, res) => {
+app.post('/sms', (req, res) => {
     const twiml = new MessagingResponse();
 
     let txtMessage = req.body.Body
@@ -28,6 +28,6 @@ app.post('/api/sms', (req, res) => {
     res.end(twiml.toString());
 });
 
-http.createServer(app).listen(process.env.SERVER || 4242, () => {
-    console.log("Express server listening on port", process.env.SERVER || 4242)
+http.createServer(app).listen(process.env.PORT, () => {
+    console.log("Express server listening on port", process.env.PORT)
 })
