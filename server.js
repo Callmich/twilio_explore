@@ -56,9 +56,9 @@ app.post("/sms", (req, res) => {
       "You've found the SECRET Menu! \nInception - A code review of the Twilio code that is being used right now? That's wild! \nBloopers - ...yeah, video recording and editing is hard \n27 or 72 - My favorite numbers. So here is a bunch of other stuff I really enjoy"
     );
   } else if (lowerCaseTxt == "inception") {
-    twiml.message("Needs to be filled");
+    twiml.message("LOUD INCEPTION NOISE! \nhttps://youtu.be/TZtOZk7Jg_g");
   } else if (lowerCaseTxt == "bloopers") {
-    twiml.message("Needs to be filled");
+    twiml.message("If you can't laugh at yourself, then you're doing life wrong! \nhttps://youtu.be/mwyoDxkpBYU");
   } else if (
     lowerCaseTxt == "27" ||
     lowerCaseTxt == "72" ||
