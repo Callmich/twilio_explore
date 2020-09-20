@@ -19,32 +19,32 @@ app.post("/sms", (req, res) => {
   // A long set of if/else if statements to make sure our bases are covered on any potential incoming text. They also have links to the needed videos
   if (lowerCaseTxt == "code") {
     twiml.message(
-      "Thank you so much for joining me on this Choose Your Own Code Review Adventure!\nPlease check out my intro: https://www.youtube.com/watch?v=lRphR1oIVmA \nText 1 for the menu"
+      "Thank you so much for joining me on this Choose Your Own Code Review Adventure!\nPlease check out my intro: https://youtu.be/5Luw_VfW25E \nText 1 for the menu"
     );
   } else if (lowerCaseTxt == "1") {
     twiml.message(
       "Menu: \n1 - Menu (seems a bit recursive to choose this) \n2 - What is StoryBoard? \n3 - Design and Planning \n4- Migrations, Seeding, and Server \n5 - Routers \n6 - Middle-Ware \n7 - Shared Functions \n8 - Documentation \n9 - Testing \n10 - The Next Steps \n11 - About Me"
     );
   } else if (lowerCaseTxt == "2") {
-    twiml.message("Needs to be filled");
+    twiml.message("Wat is StoryBoard? \nhttps://youtu.be/CwgIIxQRxMo");
   } else if (lowerCaseTxt == "3") {
-    twiml.message("Needs to be filled");
+    twiml.message("Design and Planning: \nhttps://youtu.be/6_CTf5ZSccw");
   } else if (lowerCaseTxt == "4") {
-    twiml.message("Needs to be filled");
+    twiml.message("Migrations, Seeding, and Server: \nhttps://youtu.be/38wDX84ZWVo");
   } else if (lowerCaseTxt == "5") {
-    twiml.message("Needs to be filled");
+    twiml.message("A Look at the Routers: \nhttps://youtu.be/rMie6X3tllk");
   } else if (lowerCaseTxt == "6") {
-    twiml.message("Needs to be filled");
+    twiml.message("Middle-Ware: \nhttps://youtu.be/CR462IrIUEg");
   } else if (lowerCaseTxt == "7") {
-    twiml.message("Needs to be filled");
+    twiml.message("Shared Functions: \nhttps://youtu.be/mRGok8xSWVw");
   } else if (lowerCaseTxt == "8") {
-    twiml.message("Needs to be filled");
+    twiml.message("Documentation: \nhttps://youtu.be/ow8mxgmvUgA");
   } else if (lowerCaseTxt == "9") {
-    twiml.message("Needs to be filled");
+    twiml.message("Testing: \nhttps://youtu.be/v8XhsUzHbQ0");
   } else if (lowerCaseTxt == "10") {
-    twiml.message("Needs to be filled");
+    twiml.message("What are the Next Steps? \nhttps://youtu.be/mAPKGvEJPYA);
   } else if (lowerCaseTxt == "11") {
-    twiml.message("Needs to be filled");
+    twiml.message("About Me: \nhttps://youtu.be/1ZjRujVgKuY");
   } else if (lowerCaseTxt == "?") {
     twiml.message(
       "Answer either of these riddles to gain access to the Secret Menu: \nIf you have it, you want to share it, but if you share it, it no longer exists. What is it? \nWhich wonderful company Draws the Owl?"
