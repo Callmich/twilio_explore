@@ -42,7 +42,7 @@ app.post("/sms", (req, res) => {
   } else if (lowerCaseTxt == "9") {
     twiml.message("Testing: \nhttps://youtu.be/v8XhsUzHbQ0");
   } else if (lowerCaseTxt == "10") {
-    twiml.message("What are the Next Steps? \nhttps://youtu.be/mAPKGvEJPYA);
+    twiml.message("What are the Next Steps? \nhttps://youtu.be/mAPKGvEJPYA");
   } else if (lowerCaseTxt == "11") {
     twiml.message("About Me: \nhttps://youtu.be/1ZjRujVgKuY");
   } else if (lowerCaseTxt == "?") {
