@@ -26,7 +26,7 @@ app.post("/sms", (req, res) => {
       "Menu: \n1 - Menu (seems a bit recursive to choose this) \n2 - What is StoryBoard? \n3 - Design and Planning \n4- Migrations, Seeding, and Server \n5 - Routers \n6 - Middle-Ware \n7 - Shared Functions \n8 - Documentation \n9 - Testing \n10 - The Next Steps \n11 - About Me"
     );
   } else if (lowerCaseTxt == "2") {
-    twiml.message("Wat is StoryBoard? \nhttps://youtu.be/CwgIIxQRxMo");
+    twiml.message("What is StoryBoard? \nhttps://youtu.be/CwgIIxQRxMo");
   } else if (lowerCaseTxt == "3") {
     twiml.message("Design and Planning: \nhttps://youtu.be/6_CTf5ZSccw");
   } else if (lowerCaseTxt == "4") {
@@ -47,7 +47,7 @@ app.post("/sms", (req, res) => {
     twiml.message("About Me: \nhttps://youtu.be/1ZjRujVgKuY");
   } else if (lowerCaseTxt == "?") {
     twiml.message(
-      "Answer either of these riddles to gain access to the Secret Menu: \nIf you have it, you want to share it, but if you share it, it no longer exists. What is it? \nWhich wonderful company Draws the Owl?"
+      "Answer either of these riddles to gain access to the Secret Menu: \nIf you have it, you want to share it, but if you share it, it no longer exists. What is it? \nWhich Wonderful Company Draws the Owl?"
     );
   }
   // If you want the riddles and secret passwords spoiled then read on
@@ -64,7 +64,7 @@ app.post("/sms", (req, res) => {
     lowerCaseTxt == "72" ||
     lowerCaseTxt == "27 or 72"
   ) {
-    twiml.message("Needs to be filled");
+    twiml.message("That is One of My Favorite Numbers!\nHere are some of my other favorite things:\nSports Teams: https://youtu.be/b7nZ8PodIbQ \nPodcast: http://oneshotpodcast.com/podcasts/sky-jacks-episode-1/ \nBook I'm Reading: https://www.goodreads.com/book/show/53251868-the-road-from-raqqa \nBoard Game: https://boardgamegeek.com/boardgame/172081/burgle-bros");
   } else {
     twiml.message(
       "That is not the magic word \nText 1 for the Menu ... if you're looking for the SECRET Menu then text ? for a couple of riddles that will point you in the right direction."
