@@ -64,7 +64,7 @@ app.post("/sms", (req, res) => {
     lowerCaseTxt == "72" ||
     lowerCaseTxt == "27 or 72"
   ) {
-    twiml.message("That is One of My Favorite Numbers!\nHere are some of my other favorite things:\nSports Teams: https://youtu.be/b7nZ8PodIbQ \nPodcast: http://oneshotpodcast.com/podcasts/sky-jacks-episode-1/ \nBook I'm Reading: https://www.goodreads.com/book/show/53251868-the-road-from-raqqa \nBoard Game: https://boardgamegeek.com/boardgame/172081/burgle-bros");
+    twiml.message("That is One of My Favorite Numbers!\nHere are some of my other favorite things:\nSports Teams: https://youtu.be/b7nZ8PodIbQ \nPodcast: Campaign:Skyjacks \nBook I'm Reading: The Road from Raqqa By Jordan Conn \nBoard Game: Burgle Bros");
   } else {
     twiml.message(
       "That is not the magic word \nText 1 for the Menu ... if you're looking for the SECRET Menu then text ? for a couple of riddles that will point you in the right direction."
