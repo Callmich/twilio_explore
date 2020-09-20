@@ -4,7 +4,7 @@
 [GitHub](https://github.com/Callmich) | [LinkedIn](https://www.linkedin.com/in/michael-callahan-webdev/)
 
 ## Welcome to My Expanded Code Review
-To see it in action - text Code to (430)259-2418. You'll be presented with a link to an intro video. 
+To see it in action - text Code to (430)259-2418. You'll be presented with a link to an intro video.<br/> 
 Text 1 to see the menu of different walkthroughs for my code in [StoryBoard](https://github.com/Callmich/storyboard)
 
 ### How Did This Come About?
@@ -30,11 +30,11 @@ I'll be updating the wording of the texts being sent and also finishing up the i
 In all honesty - if this will be your first time using Twilio - check out their docs and guides. They are the best way to start!
 
 ### Information Needed in the .env File:
-`AUTH_TOKEN = "Your Twilio Authentication Number"`
-`ACCOUNT = "Your Twilio Account Number"`
-`SEND_NUM = "+Your Twilio Phone Number"`
-`REC_NUM = "+Your Phone Number"`
-`PORT = "A LocalHost Port of your Choosing"`
+`AUTH_TOKEN = "Your Twilio Authentication Number"`<br/>
+`ACCOUNT = "Your Twilio Account Number"`<br/>
+`SEND_NUM = "+Your Twilio Phone Number"`<br/>
+`REC_NUM = "+Your Phone Number"`<br/>
+`PORT = "A LocalHost Port of your Choosing"`<br/>
 
 
 ### Feedback:
