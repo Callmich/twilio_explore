@@ -4,7 +4,8 @@
 [GitHub](https://github.com/Callmich) | [LinkedIn](https://www.linkedin.com/in/michael-callahan-webdev/)
 
 ## Welcome to My Expanded Code Review
-To see it in action - text Code to (430)259-2418. You'll be presented with a link to an intro video. Text 1 to see the menu of different walkthroughs for my code in [StoryBoard](https://github.com/Callmich/storyboard)
+To see it in action - text Code to (430)259-2418. You'll be presented with a link to an intro video. 
+Text 1 to see the menu of different walkthroughs for my code in [StoryBoard](https://github.com/Callmich/storyboard)
 
 ### How Did This Come About?
 I am currently applying to Twilio's Hatch program for the position of Software Engineer Apprentice. Before I applied I wanted to get a feel and basic understanding of the technology they offer their clients. I came across a guide to get started. [Link](https://www.twilio.com/docs/sms)
@@ -29,11 +30,11 @@ I'll be updating the wording of the texts being sent and also finishing up the i
 In all honesty - if this will be your first time using Twilio - check out their docs and guides. They are the best way to start!
 
 ### Information Needed in the .env File:
-AUTH_TOKEN = "Your Twilio Authentication Number"
-ACCOUNT = "Your Twilio Account Number"
-SEND_NUM = "+Your Twilio Phone Number"
-REC_NUM = "+Your Phone Number"
-PORT = "A LocalHost of your Choosing"
+`AUTH_TOKEN = "Your Twilio Authentication Number"`
+`ACCOUNT = "Your Twilio Account Number"`
+`SEND_NUM = "+Your Twilio Phone Number"`
+`REC_NUM = "+Your Phone Number"`
+`PORT = "A LocalHost Port of your Choosing"`
 
 
 ### Feedback:
