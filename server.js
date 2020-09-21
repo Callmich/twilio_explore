@@ -23,7 +23,7 @@ app.post("/sms", (req, res) => {
     );
   } else if (lowerCaseTxt == "1") {
     twiml.message(
-      "Menu: \n1 - Menu (seems a bit recursive to choose this) \n2 - What is StoryBoard? \n3 - Design and Planning \n4- Migrations, Seeding, and Server \n5 - Routers \n6 - Middle-Ware \n7 - Shared Functions \n8 - Documentation \n9 - Testing \n10 - The Next Steps \n11 - About Me"
+      "Menu: \n1 - Menu (seems a bit recursive to choose this) \n2 - What is StoryBoard? \n3 - Design and Planning \n4- Migrations, Seeding, and Server \n5 - Routers \n6 - Middleware \n7 - Shared Functions \n8 - Documentation \n9 - Testing \n10 - The Next Steps \n11 - About Me"
     );
   } else if (lowerCaseTxt == "2") {
     twiml.message("What is StoryBoard? \nhttps://youtu.be/CwgIIxQRxMo");
@@ -34,7 +34,7 @@ app.post("/sms", (req, res) => {
   } else if (lowerCaseTxt == "5") {
     twiml.message("A Look at the Routers: \nhttps://youtu.be/rMie6X3tllk");
   } else if (lowerCaseTxt == "6") {
-    twiml.message("Middle-Ware: \nhttps://youtu.be/CR462IrIUEg");
+    twiml.message("Middleware: \nhttps://youtu.be/CR462IrIUEg");
   } else if (lowerCaseTxt == "7") {
     twiml.message("Shared Functions: \nhttps://youtu.be/mRGok8xSWVw");
   } else if (lowerCaseTxt == "8") {
