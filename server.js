@@ -67,7 +67,7 @@ app.post("/sms", (req, res) => {
     twiml.message("That is One of My Favorite Numbers!\nHere are some of my other favorite things:\nSports Teams: https://youtu.be/b7nZ8PodIbQ \nPodcast: Campaign:Skyjacks \nBook I'm Reading: The Road from Raqqa By Jordan Conn \nBoard Game: Burgle Bros");
   } else {
     twiml.message(
-      "That is not the magic word \nText 1 for the Menu ... if you're looking for the SECRET Menu then text ? for a couple of riddles that will point you in the right direction."
+      "That is not a magic word! \nText 1 for the Menu ... if you're looking for the SECRET Menu then text ? for a couple of riddles to point you in the right direction."
     );
   }
 
