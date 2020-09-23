@@ -19,7 +19,7 @@ app.post("/sms", (req, res) => {
   // A long set of if/else if statements to make sure our bases are covered on any potential incoming text. They also have links to the needed videos
   if (lowerCaseTxt == "code") {
     twiml.message(
-      "Thank you so much for joining me on this Choose Your Own Code Review Adventure!\nPlease check out my intro: https://youtu.be/5Luw_VfW25E \nText 1 for the menu"
+      "Thank you so much for joining me on this Choose Your Own Code Review!\nPlease check out my intro: https://youtu.be/5Luw_VfW25E \nText 1 for the menu... or try to make a guess to find the secret menu"
     );
   } else if (lowerCaseTxt == "1") {
     twiml.message(
