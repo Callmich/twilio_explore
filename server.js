@@ -53,7 +53,7 @@ app.post("/sms", (req, res) => {
   // If you want the riddles and secret passwords spoiled then read on
   else if (lowerCaseTxt == "twilio" || lowerCaseTxt == "secret") {
     twiml.message(
-      "The SECRET Menu! \nInception - A code review of the code that is being used right now? That's wild! \nBloopers - Video recording and editing are hard. \n27 or 72 - My favorite numbers - Here is a bunch of other stuff I enjoy!"
+      "The SECRET Menu! \nInception - A code review of the code that is being used right now? That's wild! \nBloopers - Video recording and editing are hard. \n27 or 72 - My favorite numbers! Here is a bunch of other stuff I enjoy!"
     );
   } else if (lowerCaseTxt == "inception") {
     twiml.message("LOUD INCEPTION NOISE! \nhttps://youtu.be/TZtOZk7Jg_g");
