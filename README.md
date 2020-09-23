@@ -14,7 +14,7 @@ From there I asked myself - What can I do that would be able to do that would sh
 I hope you enjoy it as much as I enjoyed putting it together.
 
 ### Tech/Languages Used:
-Node.js | Twilio Magic | YouTube
+Twilio Magic | Node.js | Express | YouTube
 
 ### Plans Moving Forward:
 I'll be updating the wording of the texts being sent and also finishing up the items in the SECRET MENU. Lastly, I'll be investigating different ways to approach the large if/else if statement in the server.js. I'd like to be able to clean that up and make it a tad easier to read.
@@ -38,7 +38,7 @@ In all honesty - if this will be your first time using Twilio - check out their 
 
 
 ### Feedback:
-Do you have any suggestions for refactoring the code or additional features you'd like to see implemented? Please feel free to reach out to me on [GitHub](https://github.com/Callmich) or my [LinkedIn](https://www.linkedin.com/in/michael-callahan-webdev/). Looking forward to hearing from you and talking code! 
+Do you have any suggestions for refactoring the code or additional features you'd like to see implemented? Please feel free to reach out to me on [GitHub](https://github.com/Callmich) or my [LinkedIn](https://www.linkedin.com/in/michael-callahan-webdev/). I'm looking forward to hearing from you and talking code! 
 
 ### Thanks:
-A big thanks to the Twilio customer service rep I spoke with when running into issues deploying (thanks, Dom!) and also to Twilio for making this phenomenal technology. Plus a big thanks to my friends that gave it a spin to make sure everything was coming over correctly. 
+A big thanks to the Twilio customer service rep I spoke with when running into issues deploying (thanks, Dom!) and also to Twilio for making this phenomenal technology. Plus a big thanks to my friends that helped run some manual testing. 
