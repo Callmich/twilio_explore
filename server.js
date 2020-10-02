@@ -47,11 +47,11 @@ app.post("/sms", (req, res) => {
     twiml.message("About Me: \nhttps://youtu.be/1ZjRujVgKuY \nA bit about myself and my story.");
   } else if (lowerCaseTxt == "?") {
     twiml.message(
-      "Answer either of these riddles to gain access to the Secret Menu: \nIf you have it, you want to share it, but if you share it, it no longer exists. What is it? \nWhich Wonderful Company Draws the Owl?"
+      "Answer either of these riddles to gain access to the Secret Menu: \nIf you have it, you want to share it, but if you share it, it no longer exists. What is it? \nWhat has keys but no locks, space but no room and you can enter but you can't go in side?"
     );
   }
   // If you want the riddles and secret passwords spoiled then read on
-  else if (lowerCaseTxt == "twilio" || lowerCaseTxt == "secret") {
+  else if (lowerCaseTxt == "secret" || lowerCaseTxt == "keyboard") {
     twiml.message(
       "The SECRET Menu! \nInception - A code review of the code that is being used right now? That's wild! \nBloopers - Video recording and editing are hard. \n27 or 72 - My favorite numbers! Here is a bunch of other stuff I enjoy!"
     );
