@@ -47,7 +47,7 @@ app.post("/sms", (req, res) => {
     twiml.message("About Me: \nhttps://youtu.be/1ZjRujVgKuY \nA bit about myself and my story.");
   } else if (lowerCaseTxt == "?") {
     twiml.message(
-      "Answer either of these riddles to gain access to the Secret Menu: \nIf you have it, you want to share it, but if you share it, it no longer exists. What is it? \nWhat has keys but no locks, space but no room and you can enter but you can't go in side?"
+      "Answer either of these riddles to gain access to the Secret Menu: \nIf you have it, you want to share it, but if you share it, it no longer exists. What is it? \nWhat has keys and locks but no doors, space but no room, and you can enter but you can't go in side?"
     );
   }
   // If you want the riddles and secret passwords spoiled then read on
